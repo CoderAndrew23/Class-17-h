@@ -123,7 +123,7 @@ function draw() {
     }
     
 }else if (gameState === END) {
-    gameOver.visible = true;
+    gameOver.visible = false;
   
     textSize(20);
     fill(255);
